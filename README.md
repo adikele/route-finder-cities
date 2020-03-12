@@ -4,15 +4,15 @@ Program finds the shortest distance between two cities
 
 @Aditya Kelekar
 Project Overview:
-This is a hobby project to find the shortest route from one city to another.
-the distances fed to a database are obtained from the Internet and may not be accurate.
-The project demonstrates how the capabilities of networkx library can be used in finding the shortest route.
+This is a hobby project to find the shortest route from one city to another. 
+Distances between a few cities is fed into a database; these distances are obtained from the Internet and may not be accurate.
+The project demonstrates how the capabilities of Networkx library can be used in finding the shortest route.
 
 Description:
 Program finds the shortest distance between two cities selected by the user. 
 Names of a few cities and distances between them is fed to a sqlite database. 
 This data is subsequently represented as a Networkx graph, with cities as nodes. 
-The Dijkstra function is then used to find the shortest path, which is printed out. 
+Networkx library's Dijkstra function is then used to find the shortest path, which is printed out. 
 A graph of the cities is also displayed, but this does not currently show the shortest path.
 
 Libraries used:
